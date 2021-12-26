@@ -11,6 +11,14 @@ path = "src/bin/day1/main.rs"
 name = "day2"
 path = "src/bin/day2/main.rs"
 
+[[bin]]
+name = "day3"
+path = "src/bin/day3/main.rs"
+
+[[bin]]
+name = "day4"
+path = "src/bin/day4/main.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+itertools = "0.10.1"
